@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045113633347",
+    "project_id": "gaon-connect-f2447",
+    "storage_bucket": "gaon-connect-f2447.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045113633347:android:ecbfcc5298a5f514e5f2f6",
+        "android_client_info": {
+          "package_name": "com.satyamjha7.Gaon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4hSBKdGUuGy1MPC_0BDZcYZaOF6gLzw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -2,6 +2,11 @@
   "expo": {
     "name": "Gaon",
     "slug": "Gaon",
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "expo-build-properties"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,14 +21,21 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.satyamjha7.Gaon"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d6260e1c-e2b3-4aab-bdc9-0bf3fbc3f32c"
+      }
     }
   }
 }
